@@ -8,8 +8,6 @@ def buzzfizz():
             i = "Fizz"
         print(i)
 
-            
-
 buzzfizz()
 
 def palindromenumber():
@@ -21,3 +19,16 @@ def palindromenumber():
             print(i, "Pas palindrome")
 
 palindromenumber()
+
+
+import random
+
+def MaxiNumber():
+    MyArray = []
+    for _ in range(100):
+            New = random.randint(1,100)
+            MyArray.append(New)
+    print(max(MyArray))
+    
+
+MaxiNumber()
