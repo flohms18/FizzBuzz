@@ -11,3 +11,11 @@ def buzzfizz():
             
 
 buzzfizz()
+
+def palindromenumber():
+    for i in range(101):
+        i = str(i)
+        if i == i[::-1]:
+            print(f"{i} Palindrome")
+
+palindromenumber()
