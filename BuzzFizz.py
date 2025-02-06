@@ -32,3 +32,13 @@ def MaxiNumber():
     
 
 MaxiNumber()
+
+def Vowel(quote):
+    Vowel = ['a','e','i','o','u']
+    VowelCount = 0
+    for letter in quote:
+        if letter in Vowel:
+            VowelCount += 1
+    print(VowelCount)
+
+Vowel("James Bond")
