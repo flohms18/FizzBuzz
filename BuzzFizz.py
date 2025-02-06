@@ -17,5 +17,7 @@ def palindromenumber():
         i = str(i)
         if i == i[::-1]:
             print(f"{i} Palindrome")
+        else :
+            print(i, "Pas palindrome")
 
 palindromenumber()
