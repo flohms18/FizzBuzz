@@ -42,3 +42,9 @@ def Vowel(quote):
     print(VowelCount)
 
 Vowel("James Bond")
+
+def ReverseString(quote):
+    rev = quote[::-1]
+    print(rev)
+
+ReverseString("James Bond")
